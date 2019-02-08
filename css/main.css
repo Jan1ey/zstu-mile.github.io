@@ -1821,7 +1821,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffa650;
+  background: #5c1d4e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2686,6 +2686,8 @@ embed {
   display: inline-block;
 }
 body {
-  background: url("/images/background.jpg");
+  background: url("/images/Venom.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: 50% 50%;
 }
