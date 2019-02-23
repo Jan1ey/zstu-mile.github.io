@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="01背包,">
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="Rinne Loves Study 时间限制：C/C++ 1秒，其他语言2秒 空间限制：C/C++ 262144K，其他语言524288K  64bit IO Format: %lld 题目描述Rinne 喜欢使用一种奇怪的方法背单词，现在这些单词被放在了一个n×m的格子里。由于背单词是一个令人烦躁的事情，所以她决定每天只背同一行或者同一列的单词。她一共会背 T 次单词，为了方便巩固，她现在想知道">
+<meta name="description" content="D - Balance​                         POJ - 1837                       ​        Gigel has a strange “balance” and he wants to poise it. Actually,  the device is different from any other ordinary balanc">
+<meta name="keywords" content="01背包">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Newcode xiaobai10 C">
-<meta property="og:url" content="http://yoursite.com/2019/02/11/Newcode-xiaobai10-C/index.html">
+<meta property="og:title" content="POJ-1837">
+<meta property="og:url" content="http://yoursite.com/2019/02/23/POJ-1837/index.html">
 <meta property="og:site_name" content="zstu-mile">
-<meta property="og:description" content="Rinne Loves Study 时间限制：C/C++ 1秒，其他语言2秒 空间限制：C/C++ 262144K，其他语言524288K  64bit IO Format: %lld 题目描述Rinne 喜欢使用一种奇怪的方法背单词，现在这些单词被放在了一个n×m的格子里。由于背单词是一个令人烦躁的事情，所以她决定每天只背同一行或者同一列的单词。她一共会背 T 次单词，为了方便巩固，她现在想知道">
+<meta property="og:description" content="D - Balance​                         POJ - 1837                       ​        Gigel has a strange “balance” and he wants to poise it. Actually,  the device is different from any other ordinary balanc">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-02-11T17:05:05.004Z">
+<meta property="og:updated_time" content="2019-02-23T14:20:35.970Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Newcode xiaobai10 C">
-<meta name="twitter:description" content="Rinne Loves Study 时间限制：C/C++ 1秒，其他语言2秒 空间限制：C/C++ 262144K，其他语言524288K  64bit IO Format: %lld 题目描述Rinne 喜欢使用一种奇怪的方法背单词，现在这些单词被放在了一个n×m的格子里。由于背单词是一个令人烦躁的事情，所以她决定每天只背同一行或者同一列的单词。她一共会背 T 次单词，为了方便巩固，她现在想知道">
+<meta name="twitter:title" content="POJ-1837">
+<meta name="twitter:description" content="D - Balance​                         POJ - 1837                       ​        Gigel has a strange “balance” and he wants to poise it. Actually,  the device is different from any other ordinary balanc">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/02/11/Newcode-xiaobai10-C/">
+  <link rel="canonical" href="http://yoursite.com/2019/02/23/POJ-1837/">
 
 
 
 
 
-  <title>Newcode xiaobai10 C | zstu-mile</title>
+  <title>POJ-1837 | zstu-mile</title>
   
 
 
@@ -263,7 +264,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/11/Newcode-xiaobai10-C/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/23/POJ-1837/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="mile">
@@ -280,7 +281,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Newcode xiaobai10 C</h1>
+          <h1 class="post-title" itemprop="name headline">POJ-1837</h1>
         
 
         <div class="post-meta">
@@ -292,8 +293,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-11T23:50:04+08:00">
-                2019-02-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-23T22:01:42+08:00">
+                2019-02-23
               </time>
             
 
@@ -335,18 +336,18 @@
       
 
       
-        <p>Rinne Loves Study</p>
-<p>时间限制：C/C++ 1秒，其他语言2秒<br> 空间限制：C/C++ 262144K，其他语言524288K<br>  64bit IO Format: %lld</p>
-<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>Rinne 喜欢使用一种奇怪的方法背单词，现在这些单词被放在了一个n×m的格子里。由于背单词是一个令人烦躁的事情，所以她决定每天只背同一行或者同一列的单词。她一共会背 T 次单词，为了方便巩固，她现在想知道：对于每个单词，最后一次背是什么时候呢？<br> 她这么可爱当然会算啦！但是她想考考你。</p>
-<h2 id="输入描述"><a href="#输入描述" class="headerlink" title="输入描述:"></a>输入描述:</h2><figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">第一行三个整数 n,m,T。</span><br><span class="line">接下来 T 行，第 i+<span class="number">1</span> 行描述第 i 天干了什么，每行的格式如下：</span><br><span class="line">`1 x`:说明她在这一天背了第 x 行的单词；</span><br><span class="line">`2 y`说明她在这一天背了第 y 列的单词。</span><br><span class="line">输入的所有量的具体意义请参考「题目描述」。</span><br></pre></td></tr></table></figure>
-<h2 id="输出描述"><a href="#输出描述" class="headerlink" title="输出描述:"></a>输出描述:</h2><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输出一个 n×m的矩阵 a，ai,<span class="built_in">j</span>表示第 <span class="built_in">i</span> 行第 <span class="built_in">j</span> 列这个单词最后一次被背诵是在第几天。</span><br></pre></td></tr></table></figure>
-<p>示例1 </p>
-<h2 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">3 </span><span class="number">3</span> <span class="number">3</span></span><br><span class="line"><span class="symbol">1 </span><span class="number">2</span></span><br><span class="line"><span class="symbol">2 </span><span class="number">3</span></span><br><span class="line"><span class="symbol">1 </span><span class="number">3</span></span><br></pre></td></tr></table></figure>
-<h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">0 </span><span class="number">0</span> <span class="number">2</span></span><br><span class="line"><span class="symbol">1 </span><span class="number">1</span> <span class="number">2</span></span><br><span class="line"><span class="symbol">3 </span><span class="number">3</span> <span class="number">3</span></span><br></pre></td></tr></table></figure>
-<h2 id="备注"><a href="#备注" class="headerlink" title="备注:"></a>备注:</h2><figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">n</span>×m≤<span class="number">105</span>,<span class="built_in">T</span>≤<span class="number">105</span></span><br></pre></td></tr></table></figure>
-<p>开两个数组，一个记录行，另一个记录列，输出的行和列中最大的那一个。</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stack&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> lid id&lt;&lt;1</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> rid id&lt;&lt;1|1</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> maxn 100005</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> closein cin.tie(0)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> debug cout&lt;&lt;<span class="meta-string">"here"</span>&lt;&lt;endl;</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> ll;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> x[maxn],y[maxn];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,m,t;</span><br><span class="line">    <span class="built_in">memset</span>(x,<span class="number">0</span>,<span class="keyword">sizeof</span>(x));</span><br><span class="line">    <span class="built_in">memset</span>(y,<span class="number">0</span>,<span class="keyword">sizeof</span>(y));</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;n,&amp;m,&amp;t);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=t;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> a,b;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;a,&amp;b);</span><br><span class="line">        <span class="keyword">if</span>(a==<span class="number">1</span>) x[b]=i;</span><br><span class="line">        <span class="keyword">else</span> y[b]=i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;m;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%d "</span>,max(x[i],y[j]));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,max(x[i],y[m]));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>生于忧患，死于安乐。</p>
+        <h2 id="D-Balance"><a href="#D-Balance" class="headerlink" title="D - Balance"></a><a href="https://vjudge.net/problem/POJ-1837" target="_blank" rel="noopener">D - Balance</a></h2><p>​                         <a href="https://vjudge.net/problem/10044/origin" target="_blank" rel="noopener">POJ - 1837 </a>                     </p>
+<p>​        Gigel has a strange “balance” and he wants to poise it. Actually,  the device is different from any other ordinary balance.<br>It orders two arms of negligible weight and each arm’s length  is 15. Some hooks are attached to these arms and Gigel wants to hang up  some weights from his collection of G weights (1 &lt;= G &lt;= 20)  knowing that these weights have distinct values in the range 1..25.  Gigel may droop any weight of any hook but he is forced to use all the  weights.<br>Finally, Gigel managed to balance the device using the  experience he gained at the National Olympiad in Informatics. Now he  would like to know in how many ways the device can be balanced.<br>​<br>Knowing the repartition of the hooks and the set of the  weights write a program that calculates the number of possibilities to  balance the device.<br>It is guaranteed that will exist at least one solution for each test case at the evaluation.<br>​       </p>
+<p>Input</p>
+<p>​        The input has the following structure:<br>• the first line contains the number C (2 &lt;= C &lt;= 20) and the number G (2 &lt;= G &lt;= 20);<br>• the next line contains C integer numbers (these numbers are  also distinct and sorted in ascending order) in the range -15..15  representing the repartition of the hooks; each number represents the  position relative to the center of the balance on the X axis (when no  weights are attached the device is balanced and lined up to the X axis;  the absolute value of the distances represents the distance between the  hook and the balance center and the sign of the numbers determines the  arm of the balance to which the hook is attached: ‘-‘ for the left arm  and ‘+’ for the right arm);<br>• on the next line there are G natural, distinct and sorted  in ascending order numbers in the range 1..25 representing the weights’  values.<br>​       </p>
+<p>Output</p>
+<p>​        The output contains the number M representing the number of possibilities to poise the balance.        </p>
+<p>Sample Input</p>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">2</span> <span class="number">4</span>	</span><br><span class="line"><span class="number">-2</span> <span class="number">3</span> </span><br><span class="line"><span class="number">3</span> <span class="number">4</span> <span class="number">5</span> <span class="number">8</span></span><br></pre></td></tr></table></figure>
+<p>Sample Output</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">2</span></span><br></pre></td></tr></table></figure>
+<p>01背包</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stack&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> maxn 15005</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> INF 0x3f3f3f</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> push_back pb;</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> closein cin.tie(0)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> debug cout&lt;&lt;<span class="meta-string">"hello world!"</span>&lt;&lt;endl;</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> ll;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> dp[<span class="number">25</span>][maxn],hook[<span class="number">25</span>],w[<span class="number">25</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> c,g;</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;c&gt;&gt;g;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;c;i++) <span class="built_in">cin</span>&gt;&gt;hook[i];</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=g;i++) <span class="built_in">cin</span>&gt;&gt;w[i];</span><br><span class="line">	<span class="built_in">memset</span>(dp,<span class="number">0</span>,<span class="keyword">sizeof</span>(dp));</span><br><span class="line">	dp[<span class="number">0</span>][<span class="number">7500</span>]=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=g;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;=<span class="number">15000</span>;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(dp[i<span class="number">-1</span>][j])</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">0</span>;k&lt;c;k++)</span><br><span class="line">				&#123;</span><br><span class="line">					dp[i][j+w[i]*hook[k]]+=dp[i<span class="number">-1</span>][j];</span><br><span class="line">					<span class="comment">//cout&lt;&lt;i&lt;&lt;" "&lt;&lt;j+w[i]*hook[k]&lt;&lt;" "&lt;&lt;dp[i][j+w[i]*hook[k]]&lt;&lt;endl;</span></span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;dp[g][<span class="number">7500</span>]&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -362,6 +363,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/01背包/" rel="tag"># 01背包</a>
+          
+        </div>
+      
 
       
       
@@ -371,8 +378,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/02/09/Poj-3628/" rel="next" title="Poj-3628">
-                <i class="fa fa-chevron-left"></i> Poj-3628
+              <a href="/2019/02/11/Newcode-xiaobai10-J /" rel="next" title="Newcode xiaobai10 J">
+                <i class="fa fa-chevron-left"></i> Newcode xiaobai10 J
               </a>
             
           </div>
@@ -381,8 +388,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/02/11/Newcode-xiaobai10-I/" rel="prev" title="Newcode xiaobai10 I">
-                Newcode xiaobai10 I <i class="fa fa-chevron-right"></i>
+              <a href="/2019/02/23/POJ-1948/" rel="prev" title="POJ-1948">
+                POJ-1948 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -510,7 +517,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#题目描述"><span class="nav-number">1.</span> <span class="nav-text">题目描述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#输入描述"><span class="nav-number">2.</span> <span class="nav-text">输入描述:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#输出描述"><span class="nav-number">3.</span> <span class="nav-text">输出描述:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#输入"><span class="nav-number">4.</span> <span class="nav-text">输入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#输出"><span class="nav-number">5.</span> <span class="nav-text">输出</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#备注"><span class="nav-number">6.</span> <span class="nav-text">备注:</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#D-Balance"><span class="nav-number">1.</span> <span class="nav-text">D - Balance</span></a></li></ol></div>
             
 
           </div>
